@@ -1,0 +1,87 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.Home {
+  margin: 0 auto;
+}
+.read-the-docs {
+  color: #888;
+}
+
+header img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid var(--purple);
+  border-radius: 110px;
+  padding: 5px;
+  margin-bottom: 22px;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+div#linksMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#linksMain a {
+  border: 2px solid var(--purple);
+  width: 326px;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 4px;
+}
+
+footer div#redes-sociais {
+  display: flex;
+  width: 236px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 68px auto;
+}
